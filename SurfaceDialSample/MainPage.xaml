@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="SurfaceDialSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SurfaceDialSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="1"
+                   Grid.Row="1"
+                   Text="Dial Sample"
+                   Style="{ThemeResource HeaderTextBlockStyle}"
+                   HorizontalAlignment="Center"/>
+
+        <Slider x:Name="DialSlider"
+                Grid.Column="1"
+                Grid.Row="3"
+                Width="480"
+                Value="50"
+                Minimum="0"
+                Maximum="100"/>
+        
+        <ToggleSwitch x:Name="DialToggle"
+                      Grid.Column="1"
+                      Grid.Row="4"
+                      HorizontalAlignment="Center"/>
+
+    </Grid>
+</Page>

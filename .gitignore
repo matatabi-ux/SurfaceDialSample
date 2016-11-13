@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/DialSample/DialSample/bin/x86/Debug
+/DialSample/DialSample/obj
+/DialSample/.vs/DialSample/v14
+/DialSample/DialSample/DialSample.csproj.user
+/.vs/SurfaceDialSample/v14
+/DialSample/obj
+/DialSample/bin/x86/Debug
+/DialSample/SurfaceDialSample.csproj.user
+/SurfaceDialSample/obj/ARM/Debug
+/SurfaceDialSample/SurfaceDialSample.csproj.user
